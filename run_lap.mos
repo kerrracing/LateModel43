@@ -1,0 +1,4 @@
+loadModel(Modelica);
+loadFile("LateModel43.mo");
+simulate(LateModel43.Correlator, stopTime=18.800, numberOfIntervals=1000, outputFormat="csv");
+getErrorString();
